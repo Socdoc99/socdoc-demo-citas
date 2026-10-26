@@ -1,0 +1,4 @@
+# Evita que Git en Windows convierta los scripts a CRLF y rompa su ejecución en Linux.
+*.sh text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf

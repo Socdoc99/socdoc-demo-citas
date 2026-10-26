@@ -1,0 +1,24 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Datos locales de n8n y Postgres
+n8n-data/
+db-data/
+.n8n/
+
+# Exportaciones que pueden incluir credenciales
+workflows/*credentials*
+workflows/*secret*
+backups/
+*.sql.gz
+*.dump
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+node_modules/
